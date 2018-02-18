@@ -13,9 +13,9 @@ public:
 	BuddhalowObject();
 	BuddhalowObject(CRect bounds);
 	~BuddhalowObject();
-
+	virtual BuddhalowObjectList *GetObjectsAtPosition(const CPoint&);
 	virtual void Add(BuddhalowObject *object);
-	virtual void Draw(CDC *pDC);
+	virtual void Draw(CDC *pDC, CView *view);
 	virtual void AssertValid() const;
 	virtual void Serialize(CArchive& ar);
 	virtual void Dump(CDumpContext& dc) const;
