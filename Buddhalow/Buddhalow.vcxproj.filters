@@ -42,6 +42,15 @@
     <ClInclude Include="BuddhalowObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SelectedObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SortedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectedObjectList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Buddhalow.cpp">
@@ -63,6 +72,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BuddhalowObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectedObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectedObjectList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
